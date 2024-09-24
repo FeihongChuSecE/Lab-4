@@ -1,0 +1,52 @@
+.body {
+    background-color: rgb(206, 236, 233);
+}
+
+.header {
+    font-family: times new roman, arial;
+    font-size: larger;
+    color: rgb(7, 117, 80);
+    padding: 10px 10px 10px;
+}
+
+a:active {
+    background-color: green;
+}
+
+.personalinfo {
+    background-color: antiquewhite;
+    width: 300px;
+    margin-right: 10px;
+    border-color: blue;
+    position: relative;
+    animation: information 5s forwards;
+}
+
+@keyframes information {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+.video {
+    width: 300px;
+}
+
+.hobby {
+    background-color: rgb(120, 127, 197);
+    width: 300px;
+    margin-right: 10px;
+}
+
+.skill {
+    background-color: rgb(201, 224, 168);
+    width: 300px;
+}
+
+.button:hover {
+    color: blue;
+}
